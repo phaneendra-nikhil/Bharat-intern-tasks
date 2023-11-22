@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }))
 
-mongoose.connect('mongodb+srv://nikhil:1234@cluster0.wthhvdw.mongodb.net/');
+mongoose.connect('MONGODB_URL');
 
 var db = mongoose.connection;
 db.on('error',()=>{
