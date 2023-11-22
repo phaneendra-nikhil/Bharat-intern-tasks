@@ -181,7 +181,7 @@ function CreateBlog() {
 
                 {/* Four Editor  */}
                 <Editor
-                  apiKey='dhpp7d5l24xv5f35vs8m8bck2ns9i1me0as0vxg05ohgc4lx'
+                  apiKey='API-KEY'
                     onEditorChange={(newValue, editor) => {
                         setBlogs({...blogs, content: newValue });
                         settext(editor.getContent({ format: 'text' }));
